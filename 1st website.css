@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color: #FB923C;
+}
+
+.container{
+  padding: 30px 0;
+  width: 1260px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* header{
+
+} */
+
+.header__top{
+  padding: 10px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  border-bottom: 1px solid gray;
+
+}
+.header__top .left{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__top .right{
+  display: flex;
+  gap: 23px;
+}
